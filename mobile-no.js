@@ -11,6 +11,22 @@ if (birthdayMessageElement && typeof CONFIG !== "undefined") {
   );
 }
 
+if (touchNoButton) {
+  // Bloque également le clic clavier ou toute activation qui contournerait
+  // le déplacement au survol/toucher.
+  touchNoButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    moveNoButton();
+  }, true);
+
+  touchNoButton.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    moveNoButton();
+  });
+}
+
 if (touchNoButton && window.matchMedia("(pointer: coarse)").matches) {
   touchNoButton.addEventListener("pointerdown", (event) => {
     if (event.pointerType !== "touch") return;

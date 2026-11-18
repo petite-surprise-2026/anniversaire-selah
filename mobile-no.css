@@ -1,3 +1,66 @@
+/* Mobile: garde les images dans le flux normal pour ne jamais recouvrir la question. */
+.before-video-note {
+  margin: 18px auto -8px;
+  color: var(--rose);
+  font-size: clamp(0.9rem, 3.8vw, 1rem);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+@media (max-width: 560px) {
+  .gallery {
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: auto;
+    gap: clamp(6px, 2.5vw, 10px);
+    margin-bottom: clamp(16px, 5vw, 24px);
+  }
+
+  .photo-link,
+  .photo-link-last {
+    display: block;
+    height: auto;
+    min-width: 0;
+  }
+
+  .photo-link-last {
+    grid-column: 1 / -1;
+  }
+
+  .photo {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.45 / 1;
+  }
+
+  .photo-link-last .photo {
+    aspect-ratio: 2.3 / 1;
+  }
+
+  .photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 360px) {
+  .gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .photo-link-last {
+    grid-column: auto;
+  }
+
+  .photo,
+  .photo-link-last .photo {
+    aspect-ratio: 1.8 / 1;
+  }
+}
+
 /* Le bouton est la tête du personnage ; seul le corps apparaît en dessous. */
 @media (max-width: 560px) and (pointer: coarse) {
   .no-runner {
