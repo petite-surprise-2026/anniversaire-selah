@@ -7,7 +7,7 @@ const birthdayMessageElement = document.querySelector("[data-message]");
 if (birthdayMessageElement && typeof CONFIG !== "undefined") {
   birthdayMessageElement.textContent = CONFIG.birthdayMessage.replace(
     "Salut mon humaine !",
-    "Salut ma chère humain!",
+    "Salut ma chère humaine!",
   );
 }
 
