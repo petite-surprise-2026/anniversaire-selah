@@ -11,7 +11,7 @@ Que cette nouvelle année t’apporte énormément de joie, de paix, d’amour, 
 
 Pour fêter ça comme il se doit, je te propose qu’on se fasse un petit restau asiat 🍜🥢😋. Je te communiquerai le lieu et la date ultérieurement, si t'es partante !
 
-Dis toi que j'ai passé plusieurs jours à créer cette petite page, dinguerie ! J'espère que tu apprécieras l'effort !
+Dis toi que j'ai passé plusieurs jours à coder cette petite page, dinguerie !J'arrive pas à croire que j'ai crée site pour femme, Tchiee!!!! J'espère que tu apprécieras l'effort !
 
 MAIS ATTENTION ! ⚠️
 
