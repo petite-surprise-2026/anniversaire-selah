@@ -1,0 +1,25 @@
+/* Le bouton est la tête du personnage ; seul le corps apparaît en dessous. */
+@media (max-width: 560px) and (pointer: coarse) {
+  .no-runner {
+    top: calc(100% + 2px);
+    width: 44px;
+    height: 52px;
+  }
+
+  .runner-head {
+    display: none;
+  }
+
+  .runner-torso {
+    top: 0;
+    left: 12px;
+  }
+
+  .runner-arm {
+    top: 3px;
+  }
+
+  .runner-leg {
+    top: 17px;
+  }
+}
