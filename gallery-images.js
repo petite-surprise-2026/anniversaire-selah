@@ -1,9 +1,9 @@
 // Remplace les trois visuels de l’accueil : anime, BTS et scène K-pop.
 const HOME_GALLERY = [
   {
-    src: "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1000&q=85",
-    alt: "Illustration dans une ambiance anime",
-    caption: "Univers anime",
+    src: "https://i.pinimg.com/236x/93/38/b4/9338b47012c994c4a732b94417b0ca77.jpg",
+    alt: "Mao Mao, personnage de l’anime Le Quotidien du pharmacien",
+    caption: "Mao Mao 💚",
   },
   {
     src: "https://www.geekjunior.fr/wp-content/uploads/2019/01/screenx.jpg",
