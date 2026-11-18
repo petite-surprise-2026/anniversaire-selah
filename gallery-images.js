@@ -6,9 +6,9 @@ const HOME_GALLERY = [
     caption: "Univers anime",
   },
   {
-    src: "https://commons.wikimedia.org/wiki/Special:FilePath/BTS_Billboard_Music_Awards_2019.png",
-    alt: "BTS aux Billboard Music Awards 2019",
-    caption: "BTS",
+    src: "https://www.geekjunior.fr/wp-content/uploads/2019/01/screenx.jpg",
+    alt: "BTS en concert, image de l’expérience ScreenX au cinéma",
+    caption: "BTS en concert",
   },
   {
     src: "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1000&q=85",
