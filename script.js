@@ -1,7 +1,7 @@
 // Personnalise ce bloc, puis remplace les images par tes propres fichiers autorisés.
 const CONFIG = {
   name: "Selah",
-  birthdayMessage: `Salut mon humaine !
+  birthdayMessage: `Salut ma chère humaine !
 
 Je t’écris ce petit mot pour te souhaiter un heureux anniversaire ! 🎂🎉
 
@@ -15,7 +15,7 @@ Dis toi que j'ai passé plusieurs jours à créer cette petite page, dinguerie !
 
 MAIS ATTENTION ! ⚠️
 
-Que tu sois partante ou non pour le restaurant, je te demande une seule chose : clique d'abord sur le bouton NON. 👀
+Que tu sois partante ou non pour le restau, je te demande une seule chose : clique d'abord sur le bouton NON (si tu peux). 👀
 
 Ne pose pas de questions, fais moi confiance!
 
