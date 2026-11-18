@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#21142b">
+    <meta
+      name="description"
+      content="Une petite surprise d’anniversaire préparée pour Selah."
+    >
+    <meta property="og:title" content="Joyeux anniversaire Selah !">
+    <meta
+      property="og:description"
+      content="Une petite surprise d’anniversaire préparée avec le cœur."
+    >
+    <title>Joyeux anniversaire Selah !</title>
+    <link rel="stylesheet" href="style.css?v=11">
+    <script src="starfield.js?v=3" defer></script>
+    <script src="script.js?v=5" defer></script>
+  </head>
+  <body>
+    <div class="starfield" data-starfield aria-hidden="true"></div>
+    <main class="page">
+      <div class="ambient ambient-one" aria-hidden="true"></div>
+      <div class="ambient ambient-two" aria-hidden="true"></div>
+      <div class="sparkles" aria-hidden="true">✦　✧　✦</div>
+
+      <article class="invitation">
+        <p class="eyebrow">Une petite surprise rien que pour toi</p>
+        <h1>
+          Joyeux anniversaire
+          <span class="name" data-name>Selah</span>
+          <span class="title-sparkle" aria-hidden="true">✦</span>
+        </h1>
+
+        <div class="music-player">
+          <p class="music-player-caption">
+            <span class="music-player-note" aria-hidden="true">♫</span>
+            <span>Jerusalem · Beach Chapel</span>
+          </p>
+          <iframe
+            title="Beach Chapel - Jerusalem (Official Music Video)"
+            src="https://www.youtube-nocookie.com/embed/AeL2uKEUuv8?rel=0&amp;playsinline=1"
+            width="560"
+            height="315"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <a
+            class="music-player-fallback"
+            href="https://www.youtube.com/watch?v=AeL2uKEUuv8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Si le lecteur est bloqué, ouvrir la vidéo sur YouTube</a>
+        </div>
+
+        <p class="birthday-message" data-message>
+          Je suis reconnaissant à Dieu de te connaître. Que cette nouvelle
+          année t’apporte beaucoup de joie, de paix et de beaux moments.
+        </p>
+
+        <section class="gallery" aria-label="Quelques images pour célébrer">
+          <a class="photo-link" href="gallery.html" aria-label="Ouvrir la galerie BTS, K-pop et anime">
+          <figure class="photo photo-main">
+            <img data-gallery="0" alt="Lumières scintillantes d’un concert">
+            <figcaption>Des souvenirs à créer</figcaption>
+          </figure>
+          </a>
+          <a class="photo-link" href="gallery.html" aria-label="Ouvrir la galerie BTS, K-pop et anime">
+          <figure class="photo photo-side">
+            <img data-gallery="1" alt="Une scène de concert colorée">
+            <figcaption>Ta playlist préférée</figcaption>
+          </figure>
+          </a>
+          <a class="photo-link photo-link-last" href="gallery.html" aria-label="Ouvrir la galerie BTS, K-pop et anime">
+          <figure class="photo photo-side photo-last">
+            <img data-gallery="2" alt="Illustration dans une ambiance anime">
+            <figcaption>Un petit coin d’évasion</figcaption>
+          </figure>
+          </a>
+        </section>
+
+        <section class="question-card" aria-labelledby="question">
+          <p class="question-kicker"><span aria-hidden="true">♡</span> Et si on fêtait ça ensemble ?</p>
+          <h2 id="question">
+            Seriez-vous disponible pour un restaurant
+            <span class="date" data-date>à la date du …</span> ?
+          </h2>
+          <p class="hint" id="button-hint">Choisis ta réponse…</p>
+
+          <div class="choices" data-choices>
+            <button class="button button-yes" type="button" data-yes>
+              Oui, avec plaisir <span aria-hidden="true">♡</span>
+            </button>
+            <button
+              class="button button-no"
+              type="button"
+              data-no
+            >
+              <span>Non</span>
+              <span class="no-runner" data-no-runner aria-hidden="true">
+                <span class="runner-head"></span>
+                <span class="runner-torso"></span>
+                <span class="runner-arm runner-arm-left"></span>
+                <span class="runner-arm runner-arm-right"></span>
+                <span class="runner-leg runner-leg-left"></span>
+                <span class="runner-leg runner-leg-right"></span>
+              </span>
+            </button>
+          </div>
+
+          <p class="reply" data-reply role="status" aria-live="polite" hidden></p>
+        </section>
+
+        <p class="signoff">Avec affection, et un peu de magie ✨</p>
+      </article>
+    </main>
+
+    <div class="celebration-overlay" data-celebration aria-hidden="true" hidden>
+      <div class="celebration-scene" data-celebration-scene>
+        <div class="dance-stage">
+          <span class="dance-shadow"></span>
+          <div class="dance-figure">
+            <span class="dance-arm dance-arm-left"><span class="dance-hand"></span></span>
+            <span class="dance-arm dance-arm-right"><span class="dance-hand"></span></span>
+            <span class="dance-leg dance-leg-left"><span class="dance-foot"></span></span>
+            <span class="dance-leg dance-leg-right"><span class="dance-foot"></span></span>
+            <span class="dance-torso"></span>
+            <span class="dance-head"></span>
+          </div>
+        </div>
+        <span class="celebration-icon" data-celebration-icon></span>
+        <p class="celebration-message" data-celebration-message></p>
+      </div>
+    </div>
+  </body>
+</html>

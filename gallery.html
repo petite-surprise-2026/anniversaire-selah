@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#21142b">
+    <meta
+      name="description"
+      content="Une galerie de photos BTS, K-pop, Les Carnets de l’Apothicaire et SNK."
+    >
+    <title>Galerie K-pop et anime</title>
+    <link rel="stylesheet" href="style.css?v=11">
+    <script src="starfield.js?v=3" defer></script>
+    <script src="gallery.js?v=3" defer></script>
+  </head>
+  <body>
+    <div class="starfield" data-starfield aria-hidden="true"></div>
+    <main class="gallery-page">
+      <div class="gallery-shell">
+        <a class="gallery-back" href="index.html">← Retour à l’invitation</a>
+        <header class="gallery-heading">
+          <p class="eyebrow">Une galerie à explorer</p>
+          <h1>BTS, K-pop &amp; anime</h1>
+          <p>
+            Des photos de cosplays des personnages d’anime, partagées sur
+            Wikimedia Commons avec leur crédit et leur licence. Sélectionne
+            une image pour consulter sa page source.
+          </p>
+        </header>
+
+        <section class="gallery-category" data-query="BTS South Korean band" aria-labelledby="gallery-bts">
+          <h2 id="gallery-bts">BTS</h2>
+          <p class="gallery-status" data-status role="status">Chargement des images…</p>
+          <div class="photo-grid" data-photo-grid></div>
+          <a class="gallery-search" data-search-link target="_blank" rel="noopener noreferrer">
+            Voir plus de résultats sur Wikimedia Commons
+          </a>
+        </section>
+
+        <section class="gallery-category" data-query="Maomao anime cosplay" data-category-filter="Cosplay of Maomao" aria-labelledby="gallery-apothecary">
+          <h2 id="gallery-apothecary">Les Carnets de l’Apothicaire</h2>
+          <p class="gallery-description">Cosplays de Maomao, personnage de l’anime.</p>
+          <p class="gallery-status" data-status role="status">Chargement des images…</p>
+          <div class="photo-grid" data-photo-grid></div>
+          <a class="gallery-search" data-search-link target="_blank" rel="noopener noreferrer">
+            Voir plus de cosplays de l’anime sur Wikimedia Commons
+          </a>
+        </section>
+
+        <section class="gallery-category" data-query="K-pop Korean pop music" aria-labelledby="gallery-kpop">
+          <h2 id="gallery-kpop">K-pop</h2>
+          <p class="gallery-status" data-status role="status">Chargement des images…</p>
+          <div class="photo-grid" data-photo-grid></div>
+          <a class="gallery-search" data-search-link target="_blank" rel="noopener noreferrer">
+            Voir plus de résultats sur Wikimedia Commons
+          </a>
+        </section>
+
+        <section class="gallery-category" data-query="Attack on Titan cosplay anime" data-category-filter="Cosplay of (Eren Yeager|Mikasa Ackerman|Levi Ackerman|Armin Arlert)" aria-labelledby="gallery-snk">
+          <h2 id="gallery-snk">SNK · L’Attaque des Titans</h2>
+          <p class="gallery-description">Cosplays d’Eren, Mikasa, Levi et Armin, personnages de l’anime.</p>
+          <p class="gallery-status" data-status role="status">Chargement des images…</p>
+          <div class="photo-grid" data-photo-grid></div>
+          <a class="gallery-search" data-search-link target="_blank" rel="noopener noreferrer">
+            Voir plus de cosplays de l’anime sur Wikimedia Commons
+          </a>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
